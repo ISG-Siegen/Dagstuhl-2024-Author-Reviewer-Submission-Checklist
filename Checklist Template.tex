@@ -6,15 +6,13 @@
 \usepackage{microtype}%if unwanted, comment out or use option "draft"
 \usepackage{todonotes}
 \usepackage{enumitem}
-\usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{csquotes}
-\usepackage{booktabs} % MS (added by Toine Bogers)
-\usepackage{adjustbox} % MS (added by Toine Bogers)
+\usepackage{hyperref}
 
-% Adjust by replacing the title with your own conference or journal name. 
-\title{Author and Reviewer Submission Checklist for the ABC Conference/Journal 
-[Dagstuhl 2024 Template, v1.0]}
+
+\title{Author and Reviewer Manuscript-Submission Checklist for the ABC Conference/Journal \\
+(Dagstuhl Seminar 24211 Template, v1.0)}
 
 \author{Author}
 
@@ -22,7 +20,7 @@
 
 \begin{document}
 
-% BEGIN Formatting Checklist Yes, No, n/a, TODO (added by Joeran)
+% BEGIN Formatting Checklist Yes, No, n/a, TODO 
 \definecolor{answerYesColor}{RGB}{31,120,180}
 \definecolor{answerNoColor}{RGB}{227,26,28}
 \definecolor{answerNAColor}{RGB}{32, 32, 32}
@@ -33,10 +31,18 @@
 \newcommand{\answerNA}[1]{{\textcolor{answerNAColor}{[N/A]}\xspace#1}}
 \newcommand{\answerTODO}{\textcolor{answerTODOColor}{\textbf{[TODO]}}}
 
-% END Formatting Checklist Yes, No, n/a, TODO (added by Joeran)
+% END Formatting Checklist Yes, No, n/a, TODO 
 
 \maketitle
 
+\noindent This document serves as a template for conference chairs and journal editors. They may use this template to populate a submission checklist to be filled and submitted by authors along with their manuscript and/or reviewers along with their review or simply as guidance. This template is published under the CC-BY~4 license\footnote{https://creativecommons.org/licenses/by/4.0/}. Visit 
+ \href{https://code.isg.beel.org/Dagstuhl-24211-Checklist}{https://code.isg.beel.org/Dagstuhl-24211-Checklist} for the most recent version of this template. Inspired by the AutoML 2024 checklist\footnote{https://github.com/automl-conf/LatexTemplate/blob/main/instructions.tex}, our template allows for the LaTeX commands \answerTODO \answerYes{} \answerNo{} \answerNA{}.
+
+If you use this template or parts thereof, please give appropriate credit to or cite
+
+\begin{displayquote}
+\textit{Joeran Beel, Dietmar Jannach, Alan Said, Guy Shani, Tobias Vente, Lukas Wegmeth. 2024. }Best-Practices for Offline Evaluations of Recommender Systems\textit{. In Report from Dagstuhl Seminar 24211 -- Evaluation Perspectives of Recommender Systems: Driving Research and Education. Editors: Christine Bauer, Alan Said, Eva Zangerle.}
+\end{displayquote}
 
 \section{Reproducibility Checklist}
 
@@ -189,15 +195,6 @@
         \item Sensitivity to dataset parameters is done similarly to the method parameters.
     \end{enumerate}
 \end{enumerate}
-
-\section{Remarks}
-
-This template is published under the CC-BY 4 license\footnote{https://creativecommons.org/licenses/by/4.0/}. If you use this template or parts thereof, please give appropriate credit to or cite
-
-\paragraph{\textit{Joeran Beel, Dietmar Jannach, Alan Said, Guy Shani, Tobias Vente, Lukas Wegmeth. 2024. Best-Practices for Offline Evaluations of Recommender Systems. In Report from Dagstuhl Seminar 24211 -- Evaluation Perspectives of Recommender Systems: Driving Research and Education. Editors: Christine Bauer, Alan Said, Eva Zangerle.} }
-
-
-The most recent version of this template is available at https://code.isg.beel.org/Dagstuhl-2024-Author-Reviewer-Submission-Checklist/
 
 
 \end{document}
